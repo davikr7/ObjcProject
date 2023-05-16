@@ -11,6 +11,7 @@
 @interface Test: UIViewController
 
 - (void) sayHello;
++ (void) sayGoodBye;
 
 @end
 

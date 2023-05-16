@@ -20,6 +20,7 @@
     Test *test = [[Test alloc] init];
     
     [test sayHello];
+    [Test sayGoodBye];
     
     self.tasksArray = [[NSMutableArray alloc] init];
     
@@ -71,5 +72,3 @@
 }
 
 @end
-
-

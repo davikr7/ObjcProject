@@ -18,7 +18,9 @@
     NSLog(@"Hello, world!");
 }
 
-
++ (void) sayGoodBye {
+    NSLog(@"GoodBye, world!");
+}
 
 @end
 
