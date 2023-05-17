@@ -13,7 +13,7 @@
 - (void) sayHello;
 + (void) sayGoodBye;
 
+@property(nonatomic, strong) NSString *yourName;
+@property(nonatomic, assign) NSInteger age;
+
 @end
-
-
-
