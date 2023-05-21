@@ -12,6 +12,7 @@
 
 - (void) sayHello;
 + (void) sayGoodBye;
++ (void) goodDay;
 
 @property(nonatomic, strong) NSString *yourName;
 @property(nonatomic, assign) NSInteger age;

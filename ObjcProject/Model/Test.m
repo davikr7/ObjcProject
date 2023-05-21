@@ -22,8 +22,8 @@
     NSLog(@"GoodBye, world!");
 }
 
-Test *mySurname = [[Test alloc] init];
-Test *yourSurname = mySurname;
-
++ (void) goodDay {
+    NSLog(@"Good day!");
+}
 @end
 

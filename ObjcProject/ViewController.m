@@ -39,6 +39,8 @@
     addButton.backgroundColor = [UIColor greenColor];
     [addButton addTarget:self action:@selector(addTask) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:addButton];
+    
+    NSLog(@"bbb");
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
